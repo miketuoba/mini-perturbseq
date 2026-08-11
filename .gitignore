@@ -1,0 +1,21 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Data
+data/*
+!data/README.md
+
+# Results that can be regenerated
+results/figures/*
+results/tables/*
+
+# OS / editors
+.DS_Store
+.vscode/
+
+# Downloaded datasets
+*.h5ad

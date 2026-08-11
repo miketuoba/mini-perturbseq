@@ -1,0 +1,16 @@
+name: mini-perturbseq
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - pandas
+  - numpy
+  - matplotlib
+  - scanpy
+  - anndata
+  - pip
+  - pip:
+      - pertpy
